@@ -36,10 +36,7 @@ public class hotel {
     printYenekas(totalYenekas);
     System.out.println();
 
-    System.out.println(
-      "Total cost: $" +
-      ((numRooms * ROOM_COST_DOLLARS) + (numYeneka * YENEKA_COST_DOLLARS))
-    );
+    System.out.println("Total cost: $" +((numRooms * ROOM_COST_DOLLARS) + (numYeneka * YENEKA_COST_DOLLARS)));
   }
 
   private static void bookRooms(
