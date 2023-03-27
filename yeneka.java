@@ -35,8 +35,8 @@ public class yeneka {
   }
 
   public void printYeneka() {
-    System.out.println("Race " + this.race);
-    System.out.println("Description " + description);
-    System.out.println("Eye colour " + eyeColour);
+    System.out.println("Race: " + this.race);
+    System.out.println("Description: " + description);
+    System.out.println("Eye colour: " + eyeColour);
   }
 }
