@@ -13,12 +13,7 @@ public class Hotel {
 
     System.out.println("Hello welcome to Christian's Hotel");
     System.out.println();
-    System.out.println(
-      "Each Room Cost $" +
-      ROOM_COST_DOLLARS +
-      " & each yeneka cost $" +
-      YENEKA_COST_DOLLARS
-    );
+    System.out.println("Each Room Cost $" + ROOM_COST_DOLLARS + " & each yeneka cost $" +YENEKA_COST_DOLLARS);
     System.out.println();
 
     System.out.println("How many rooms can I get for you today?");
@@ -36,10 +31,7 @@ public class Hotel {
     printYenekas(totalYenekas);
     System.out.println();
 
-    System.out.println(
-      "Total cost: $" +
-      ((numRooms * ROOM_COST_DOLLARS) + (numYeneka * YENEKA_COST_DOLLARS))
-    );
+    System.out.println("Total cost: $" +((numRooms * ROOM_COST_DOLLARS) + (numYeneka * YENEKA_COST_DOLLARS)));
   }
 
   private static void bookRooms(
